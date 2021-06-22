@@ -14,7 +14,7 @@ const Nav = styled.nav`
     z-index: 100;
     position: fixed;
     width: 100%;
-    background: #000;
+    // Navbar background color background: #000;
 `;
 
 const NavLink = css`
@@ -73,11 +73,11 @@ const NavBtn = styled.div`
 }
 `;
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <Nav>
         <Logo to='/'>Coracle Carmarthen</Logo>
-        <MenuBars />
+        <MenuBars onClick={toggle}/>
         <NavMenu>
             {menuData.map((item, index) => (
                 <NavMenuLinks to={item.link} key={index}>

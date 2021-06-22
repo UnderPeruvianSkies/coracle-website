@@ -1,46 +1,53 @@
+import About1 from '../images/About1.jpg'
+import Entertainment1 from '../images/Entertainment1.jpg'
+import Menu1 from '../images/Menu1.jpg'
+import Promotion1 from '../images/Promotion1.jpg'
+import Promotion2 from '../images/Promotion2.jpg'
+import Venue1 from '../images/Venue1.jpg'
+
 export const SliderData = [
     {
-        title: 'title: Entertainment',
+        title: 'Entertainment',
         description: 'Check out our live entertainment and upcoming events!',
-        path: '/enterainment',
+        path: '/entertainment',
         label: 'View Entertainment',
-        image: ImageOne,
+        image: Entertainment1,
         alt: 'Entertainment1'
     },
 
     {
-        title: 'title: About',
+        title: 'About',
         description: 'Find out more in our about page, such as contact details and location',
         path: '/about',
         label: 'View About',
-        image: ImageTwo,
+        image: About1,
         alt: 'About1'
     },
 
     {
-        title: 'title: About',
+        title: 'Menu',
         description: 'See our mouth-watering mains and sweet treats!',
         path: '/menu',
         label: 'View Menu',
-        image: ImageThree,
+        image: Menu1,
         alt: 'Menu1'
     },
 
     {
-        title: 'title: Venue Hire',
+        title: 'Venue Hire',
         description: 'For Enquiries about booking parties and receptions/large table bookings.',
         path: '/venuehire',
-        label: 'View EVenue Hire',
-        image: ImageFour,
+        label: 'View Venue Hire',
+        image: Venue1,
         alt: 'Entertainment1'
     },
 
     {
-        title: 'title: Promotions',
+        title: 'Promotions',
         description: 'check out our Beer & Restuarant offers, plus our beat the joker sweepstake',
         path: '/promotions',
         label: 'View Promotions',
-        image: ImageFive,
+        image: Promotion2,
         alt: 'Promotions1'
     },
 ]
